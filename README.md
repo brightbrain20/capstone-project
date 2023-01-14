@@ -74,6 +74,8 @@ After you're finished please remove all the comments and instructions!
   - [ ] WebHint
   - [ ] Stylelint
   - [ ] ESlint
+
+
 <!-- ### Tech Stack <a name="tech-stack"></a>
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
@@ -110,7 +112,7 @@ After you're finished please remove all the comments and instructions!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
-<!-- LIVE DEMO -->
+<!--LOOM LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
