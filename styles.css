@@ -331,11 +331,12 @@ hr {
 }
 
 footer {
-  padding: 20px 0;
-  font-size: 16px;
+  padding: 20px;
+  font-size: 20px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  gap: 300px;
+  gap: 30px;
 }
 
 @media (min-width: 768px) {
@@ -510,5 +511,13 @@ footer {
 
   .partner-li {
     padding: 30px 0;
+  }
+
+  footer {
+    padding: 20px 0;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
   }
 }
