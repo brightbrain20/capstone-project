@@ -149,29 +149,25 @@ Copy All Project files and run using VSCODE. HTML can be viewed in browser.
 - Twitter: [@twitterhandle](https://twitter.com/BrightEzeamaka)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/bright-ezeamaka-752837237/)
 
-<!-- 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
-<!-- ## 🔭 Future Features <a name="future-features"></a>
+ ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+> Below are features  i will add later:
 
-- [ ] **[populate cards with project]**
-- [ ] **[Add aminations to card section]**
-- [ ] **[Add DOM on deskstop]** -->
+- [ ] **[Aminations on the event section]**
+- [ ] **[make the header section fixed]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 <!-- CONTRIBUTING -->
 
-<!-- ## 🤝 Contributing <a name="contributing"></a> -->
+## 🤝 Contributing <a name="contributing"></a>
 
 
 Contributions, issues, and feature requests are welcome!
@@ -187,35 +183,20 @@ Give a ⭐️ if you like this project!
 
 <!-- ACKNOWLEDGEMENTS -->
 
-<!-- ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+> I would like to thank: 
+- [Cindy Shin](https://www.behance.net/adagio07) the [author of the original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)[Cindy Shin](https://www.behance.net/adagio07) the [author of the original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
-I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> --> -->
-
-<!-- FAQ (optional) -->
-
-<!-- ## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- LICENSE -->
 
  ## 📝 License <a name="license"></a>
 
 This project is [MIT](https://github.com/brightbrain20/capstone-project/new/master) licensed. 
+
 
 <!-- _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
 
