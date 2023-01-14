@@ -86,7 +86,7 @@ a:hover {
   gap: 20px;
 }
 
-/* .....mobile popup */
+/* mobile popup */
 .mobile-menu {
   position: fixed;
   background-color: #272a31;
@@ -162,15 +162,10 @@ a:hover {
   transform: translateY(-8px) rotate(-45deg);
 }
 
-/* .....image section..... */
-.image {
-  width: 100%;
-  height: 200px;
-}
-
-/* headline section...... */
-.headline {
-  padding: 0 10px;
+/* ...........headline........... */
+.headline-container {
+  text-align: center;
+  background-image: url(./images/background.svg);
 }
 
 .headline-p {
@@ -183,123 +178,73 @@ h1 {
   color: #ec5242;
   font-size: 39px;
   margin: 0;
+  padding-bottom: 30px;
 }
 
 .headline-summary {
   font-size: 20px;
   border: 3px solid #d3d3d3;
-  margin-top: 10px;
   padding: 10px;
+  width: 90%;
+  margin: auto;
 }
 
-h2 {
-  font-size: 27px;
-  padding-top: 10px;
+.link {
+  text-decoration: underline;
+  color: #272a31;
+}
+
+.link:hover {
+  color: #ec5242;
 }
 
 .venue {
-  font-size: 16px;
-}
-
-/* .......event program */
-.event {
-  background-color: black;
-  margin-top: 30px;
-}
-
-h3 {
-  color: #fff;
-  padding-top: 50px;
-  text-align: center;
-  margin-bottom: 5px;
-}
-
-hr {
-  background-color: #ec5242;
-  height: 3px;
-  width: 10%;
-  margin: auto;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.event-box {
-  margin-top: 10px;
-  display: flex;
-  gap: 10px;
-  background-color: #272a31;
-  margin-bottom: 20px;
-  padding: 20px;
-}
-
-.event-img {
-  width: 60px;
-  height: 60px;
-  border-radius: 100%;
   margin-top: 20px;
+  font-size: 18px;
 }
 
-.event-h2 {
-  color: #ec5242;
-  font-size: 16px;
-  margin-top: 26px;
-}
-
-.event-p {
-  color: #fff;
-  margin-top: 24px;
-}
-
-.btn {
-  background-color: #ec5242;
-  color: #fff;
-  border: none;
-  padding: 20px;
-  font-size: 16px;
-  margin-left: 22px;
-  margin-bottom: 30px;
-}
-
-/* ......Feature..... */
-.feature-h2 {
+.theme {
   text-align: center;
-  padding-bottom: 5px;
-}
-
-.guestSpeaker {
-  display: flex;
-  gap: 10px;
-  padding: 0 10px;
   margin-top: 30px;
 }
 
-.last {
-  margin-bottom: 30px;
-}
-
-.quest-img {
-  height: 110px;
-  width: 150px;
-}
-
-.name {
+.theme-p {
+  padding: 10px 0 20px 0;
   font-size: 20px;
 }
 
-.profession {
-  color: #ec5242;
-  font-size: 12px;
-  padding-top: 5px;
-  padding-bottom: 20px;
+.summit-logo {
+  border: 1px solid gray;
+  padding: 20px;
+  font-size: 22px;
+  width: 80%;
+  margin: auto;
 }
 
-/* ........partner..... */
+.line {
+  margin: 30px 0;
+}
+
+/* ..............enbeded videos........... */
+.past-summit {
+  text-align: center;
+  font-size: 18px;
+}
+
+.past-summit-p {
+  padding: 10px;
+}
+
+.video {
+  margin: 20px 0;
+}
+
+/* .........sponsor....... */
 .partner {
   background-color: #272a31;
   color: #d3d3d3;
   text-align: center;
   font-size: 24px;
-  width: 100%;
 }
 
 .partner-ul {
@@ -318,8 +263,10 @@ hr {
 }
 
 footer {
-  padding: 20px 0;
+  padding: 20px 10px;
   font-size: 16px;
+  background-color: #272a31;
+  color: #d3d3d3;
 }
 
 @media (min-width: 768px) {
@@ -340,22 +287,6 @@ footer {
     justify-content: space-evenly;
   }
 
-  .image {
-    height: 150px;
-  }
-
-  .headline-container {
-    margin-left: 150px;
-  }
-
-  .headline-summary {
-    font-size: 18px;
-    width: 50%;
-    border: 3px solid #d3d3d3;
-    margin-top: 10px;
-    padding: 10px;
-  }
-
   .contact-container {
     display: block;
     display: flex;
@@ -364,109 +295,44 @@ footer {
     padding: 0 30px;
   }
 
-  /* event */
-  .event-container {
-    display: flex;
-    gap: 5px;
-    width: 75%;
-    margin: auto;
+  .headline-p {
+    display: none;
   }
 
-  hr {
-    width: 50px;
+  h1 {
+    font-size: 50px;
+    padding: 50px;
   }
 
-  .event-box {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    height: 250px;
-    background-color: #272a31;
-    margin-bottom: 50px;
-    text-align: center;
-  }
-
-  .box1 {
-    margin-left: 50px;
-  }
-
-  .event-box:hover {
-    border: 3px solid #d3d3d3;
-  }
-
-  .event-img {
-    width: 100px;
-    height: 50px;
-    margin: auto;
-    border-radius: 100%;
-  }
-
-  .event-h2 {
-    color: #ec5242;
-    font-size: 26px;
-    margin-top: 0;
-  }
-
-  .event-p {
-    color: #fff;
-    margin-top: 0;
-  }
-
-  .btn {
-    background-color: black;
-    color: #fff;
-    text-decoration: underline;
-    padding: 0;
-    width: 100%;
-    margin: auto;
-    margin-bottom: 30px;
-  }
-
-  .btn:hover {
-    color: #ec5242;
-    cursor: pointer;
-  }
-
-
-  /* feature section.... */
-  .feature-container {
-    display: flex;
-    width: 80%;
-    margin: auto;
-  }
-
-  .speakers {
-    margin-left: 100px;
-  }
-
-  .guestSpeaker {
-    gap: 20px;
-  }
-
-  .quest-img {
-    height: 100px;
-    width: 80px;
-  }
-
-  .name {
+  .headline-summary {
     font-size: 20px;
+    border: 3px solid #d3d3d3;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
   }
 
-  .profession {
-    font-size: 13px;
-    padding-bottom: 5px;
+  .venue {
+    width: 50%;
+    margin: auto;
+    padding-top: 40px;
   }
 
-  .content {
+  .summit-logo {
+    border: 1px solid gray;
+    padding: 20px;
+    font-size: 22px;
+    width: 20%;
+    margin: auto;
+  }
+
+  .enbeded-videos {
+    display: flex;
+    gap: 30px;
     width: 55%;
+    margin: auto;
   }
 
-  .about-me {
-    font-size: 16px;
-  }
-
-  /* partner section .... */
   .partner {
     padding: 30px;
   }
@@ -475,7 +341,7 @@ footer {
     display: flex;
     gap: 50px;
     margin: auto;
-    width: 40%;
+    width: 55%;
     padding-top: 10px;
     text-decoration: line-through;
     font-size: 24px;
