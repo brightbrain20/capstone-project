@@ -16,7 +16,7 @@ mobileLink.forEach((element) => {
 });
 
 guestSpeacker.innerHTML = `
-<h2 class="feature-h2">Feature Speakers</h2>
+<h2 class="feature-h2">Featured Speakers</h2>
     <hr class="feature-hr">
     <div class="feature-container">
       <div class="speakers">
