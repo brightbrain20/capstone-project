@@ -1,0 +1,391 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.contact-container {
+  display: none;
+}
+
+.contact {
+  background-color: #272a31;
+}
+
+.contact-ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.contact-li {
+  gap: 10px;
+  font-size: 10px;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contact-li a {
+  color: #fff;
+}
+
+.fa-facebook,
+.fa-twitter {
+  color: #d3d3d3;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #ec5242;
+}
+
+.header-container {
+  height: 51px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  background-color: #fff;
+  height: 50px;
+  padding: 0 10px;
+}
+
+.logo {
+  display: none;
+  font-size: 20px;
+  padding-top: 13px;
+}
+
+.logo li {
+  list-style: none;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: red;
+}
+
+.logo-name {
+  margin-bottom: 500px;
+}
+
+.nav {
+  display: none;
+}
+
+.nav-ul {
+  list-style: none;
+  display: flex;
+  font-size: 18px;
+  gap: 50px;
+  margin-right: 100px;
+  height: 100%;
+  align-items: center;
+}
+
+/* mobile popup */
+.mobile-menu {
+  position: fixed;
+  background-color: #272a31;
+  width: 100%;
+  height: 100%;
+  top: 50px;
+  right: 0;
+  visibility: hidden;
+  z-index: 9;
+  opacity: 0;
+  -webkit-transition: opacity 400ms ease-in-out;
+  transition: opacity 400ms ease-in-out;
+}
+
+.mobile-menu ul {
+  margin: 30px;
+  list-style: none;
+}
+
+.mobile-menu ul .mobile-link {
+  font-size: 1rem;
+  font-weight: 600;
+  display: block;
+  color: #d3d3d3;
+  margin: 35px 0;
+  padding: 0 0 10px 8px;
+  border-bottom: 1px solid #ec5242;
+}
+
+.mobile-menu ul .mobile-link:hover,
+.mobile-menu ul .mobile-link:focus {
+  color: #ec5242;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.mobile-menu.active {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+.hamburger {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  z-index: 11;
+  margin-top: 20px;
+}
+
+.bar {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #d3d3d3;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1),
+.hamburger.active .bar:nth-child(3) {
+  margin-right: 15px;
+  width: 26px;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* ...........headline........... */
+.headline-container {
+  text-align: center;
+  background-image: url(./images/background.svg);
+}
+
+.headline-p {
+  font-size: 26px;
+  color: #ec5242;
+  margin: 5px;
+}
+
+h1 {
+  color: #ec5242;
+  margin: 0;
+  padding-bottom: 30px;
+  font-weight: bolder;
+  margin-top: 10px;
+  font-size: 40px;
+  line-height: 1.3;
+  background-image: linear-gradient(-225deg, #a01e10 0%, #2a0c4b 29%, #ec5242 67%, #ec5242 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.headline-summary {
+  font-size: 20px;
+  border: 3px solid #d3d3d3;
+  padding: 10px;
+  width: 90%;
+  margin: auto;
+}
+
+.link {
+  text-decoration: underline;
+  color: #272a31;
+}
+
+.link:hover {
+  color: #ec5242;
+}
+
+.venue {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.theme {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.theme-p {
+  padding: 10px 0 20px 0;
+  font-size: 20px;
+}
+
+.summit-logo {
+  border: 1px solid gray;
+  padding: 20px;
+  font-size: 22px;
+  width: 80%;
+  margin: auto;
+}
+
+.line {
+  margin: 30px 0;
+}
+
+/* ..............enbeded videos........... */
+.past-summit {
+  text-align: center;
+  font-size: 18px;
+}
+
+.past-summit-p {
+  padding: 10px;
+}
+
+.video {
+  margin: 20px 0;
+}
+
+/* .........sponsor....... */
+.partner {
+  background-color: #272a31;
+  color: #d3d3d3;
+  text-align: center;
+  font-size: 24px;
+}
+
+.partner-ul {
+  line-height: 2;
+  color: #d3d3d3;
+  list-style: none;
+  font-size: 16px;
+  display: flex;
+  gap: 10px;
+}
+
+.partner-li {
+  padding: 30px 0 30px 30px;
+  color: #ec5242;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+  padding: 20px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  background-color: #272a31;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    display: block;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .nav {
+    display: block;
+  }
+
+  .navigation a {
+    color: #272a31;
+    font-size: 16px;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    height: 50px;
+    padding: 0 10px 0 110px;
+  }
+
+  .contact-container {
+    display: block;
+    display: flex;
+    background-color: #272a31;
+    justify-content: space-between;
+    padding: 0 110px;
+    align-items: center;
+    height: 30px;
+  }
+
+  .headline-p {
+    display: none;
+  }
+
+  h1 {
+    font-size: 50px;
+    padding: 50px;
+  }
+
+  .headline-summary {
+    font-size: 20px;
+    border: 3px solid #d3d3d3;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+  }
+
+  .venue {
+    width: 50%;
+    margin: auto;
+    padding-top: 40px;
+  }
+
+  .summit-logo {
+    border: 1px solid gray;
+    padding: 20px;
+    font-size: 22px;
+    width: 20%;
+    margin: auto;
+  }
+
+  .enbeded-videos {
+    display: flex;
+    gap: 30px;
+    width: 55%;
+    margin: auto;
+  }
+
+  .partner {
+    padding: 30px;
+  }
+
+  .partner-ul {
+    display: flex;
+    gap: 50px;
+    margin: auto;
+    width: 55%;
+    padding-top: 10px;
+    text-decoration: line-through;
+    font-size: 24px;
+  }
+
+  .partner-li {
+    padding: 30px 0;
+  }
+
+  footer {
+    padding: 20px 10px;
+    font-size: 16px;
+    background-color: #272a31;
+    color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    flex-direction: row;
+  }
+}

@@ -19,20 +19,17 @@ REQUIRED SECTIONS:
 - Acknowledgements
 - License
 
-OPTIONAL SECTIONS:
-- FAQ
-
 After you're finished please remove all the comments and instructions!
 -->
 
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+<!-- <div align="center">
+
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
 
-</div>
+</div> -->
 
 <!-- TABLE OF CONTENTS -->
 
@@ -55,20 +52,31 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [capstone project] <a name="about-project">HTML/CSS & JavaScript capstone project - Conference page</a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**[conference setup]** setting up the home page and about me page.
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With
+ <a name="built-with">Html</a>
+ <a name="built-with">CSS</a>
+<a name="built-with">JavaScript</a>
 
-### Tech Stack <a name="tech-stack"></a>
+- Terminologies
+  - [ ] Github
+  - [ ] Linters
+  - [ ] WebHint
+  - [ ] Stylelint
+  - [ ] ESlint
+
+
+<!-- ### Tech Stack <a name="tech-stack"></a>
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
@@ -95,109 +103,41 @@ After you're finished please remove all the comments and instructions!
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
+<!-- ### Key Features <a name="key-features"></a> -->
 
-> Describe between 1-3 key features of the application.
+### Description 
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+ > This project is an amaizing  project as it contains the home page and the about me page and the feature section was bilit dynamically. Go ahead and check it out and don't hesitate to reach out to me if you would love somthing as cool as that on your Website or would want to build a website .
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
+
+<!--LOOM LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+
+- [Live Demo Link](https://brightbrain20.github.io/capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
-### Setup
-
-Clone this repository to your desired folder:
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
+step 1:
+Clone this repo locally using git in the command line and the following command
 
 ```
- -->
+git clone https://github.com/brightbrain20/CAPSTONE-PROJECT.git
+```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Alternatively, you can just download the complete zip file and extract the folder in your directory
+
+Step 2:
+Copy All Project files and run using VSCODE. HTML can be viewed in browser.
+
+- [video Link](https://www.loom.com/share/22f8f244ad8b4baa81dc385bb42b3b28)
+
 
 <!-- AUTHORS -->
 
@@ -205,35 +145,32 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **BRIGHT .C. EZEAMAKA**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@brightbrain20](https://github.com/brightbrain20)
+- Twitter: [@BrightEzeamaka](https://twitter.com/BrightEzeamaka)
+- LinkedIn: [bright-ezeamaka](https://www.linkedin.com/in/bright-ezeamaka-752837237/)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
+ ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+> Below are features  i will add later:
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Aminations on the event section]**
+- [ ] **[make the header section fixed]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
+
 
 Contributions, issues, and feature requests are welcome!
 
@@ -242,12 +179,7 @@ Feel free to check the [issues page](../../issues/).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-> Write a message to encourage readers to support your project
-
-If you like this project...
+Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -255,34 +187,19 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+> I would like to thank: 
+- [Cindy Shin](https://www.behance.net/adagio07) the [author of the original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)[Cindy Shin](https://www.behance.net/adagio07) the [author of the original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
-I would like to thank...
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> --> -->
 
 <!-- LICENSE -->
 
-## 📝 License <a name="license"></a>
+ ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/brightbrain20/capstone-project/new/master) licensed. 
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
+
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
