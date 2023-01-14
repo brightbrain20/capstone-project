@@ -519,5 +519,6 @@ footer {
     display: flex;
     justify-content: center;
     gap: 300px;
+    flex-direction: row;
   }
 }
