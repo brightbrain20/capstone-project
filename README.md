@@ -118,7 +118,7 @@ After you're finished please remove all the comments and instructions!
 
 
 
-- [Live Demo Link]( https://brightbrain20.github.io/CAPSTONE-PROJECT/)
+- [Live Demo Link](https://brightbrain20.github.io/capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
