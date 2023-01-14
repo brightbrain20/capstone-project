@@ -145,11 +145,11 @@ Copy All Project files and run using VSCODE. HTML can be viewed in browser.
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **BRIGHT .C. EZEAMAKA**
 
-- GitHub: [@githubhandle](https://github.com/brightbrain20)
-- Twitter: [@twitterhandle](https://twitter.com/BrightEzeamaka)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bright-ezeamaka-752837237/)
+- GitHub: [@brightbrain20](https://github.com/brightbrain20)
+- Twitter: [@BrightEzeamaka](https://twitter.com/BrightEzeamaka)
+- LinkedIn: [bright-ezeamaka](https://www.linkedin.com/in/bright-ezeamaka-752837237/)
 
 
 
